@@ -26,10 +26,13 @@ int main() {
 
    // 5. Call the display method of the Rectangle Object
    rec->display();
+
    // 6. Call the display method of the Circle Object
    circle->display();
+
    // 7. Delete the Rectangle Object from memory
    delete rec;
+   
    // 8. Delete the Circle Object from memory
    delete circle;
   
